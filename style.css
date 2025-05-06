@@ -5,3 +5,6 @@
    url("https://nossonsshul.com/media/images/1319/BUXu13197469.png");
    background-size:100% 100%;
    }
+   .fs-header .page-header h1 small, body > div > div > div.jumbotron.fs-header > div > div > h1 > span, .fs-header .page-header h2{
+    display:none;
+   }
