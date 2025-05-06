@@ -49,4 +49,22 @@
     .fs-goal-graph{
         background: #fee549 !important;
     }
+
+    /*countdown*/
+.fs-countdown {
+    background:#00517c !important;
+    border-radius:25px !important;
+    }
+    .fs-countdown-number, .fs-countdown-sep{
+      color:#fff !important;
+    }
     
+    /*maximize in countdown*/
+    .fs-countdown h3 strong {
+        color:#fff;
+    }
+    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
+        color:#fff !important;
+    }
+    
+  
