@@ -10,12 +10,12 @@
    }
    /*donate now and about campaign */
 .donate-button .donate-button-text {
-    background:#40DFAF;
+    background:#fee549;
   border-radius: 25px !important;
-  color:#3B244D;
+  color:#FFF;
   font-weight: bold !important;
   }
   .donate-button .donate-button-text:hover{
-    background: #3B244D;
+    background: #68c4d1;
     color: #FFF;
   }
