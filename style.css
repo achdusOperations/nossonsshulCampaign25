@@ -2,12 +2,20 @@
 
 .fs-header:before {
     background-image: 
-   url("https://nossonsshul.com/media/images/1319/BUXu13197469.png");
+   url("https://nossonsshul.com/media/images/1319/KLYz13197502.png");
    background-size:100% 100%;
    }
    .fs-header .page-header h1 small, body > div > div > div.jumbotron.fs-header > div > div > h1 > span, .fs-header .page-header h2{
     opacity:0;
    }
+
+           /*remove logo*/
+           .fs-header-top .fs-logo-container{
+            display:none !important;
+        }
+        .fs-header-top{
+            border:none !important;
+        }
    /*donate now and about campaign */
 .donate-button .donate-button-text {
     background:#fee549;
