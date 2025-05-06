@@ -30,17 +30,17 @@
 
     /*goal section*/
     .jumbotron.fs-header {
-        border-bottom: 4px solid #00517c;
+        border-bottom: 4px solid #00517c !important;
     }
     .fs-goal{
-    background:#00517c ;
+    background:#00517c !important;
     }
     .col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong, .fs-goal .fs-goal-text .fs-goal-amount{
         color:#fff !important;
     }
     .fs-goal .fs-goal-graph-container .fs-goal-graph-text span
     {
-        color:#00517c !important;
+        color:#68c4d1 !important;
     }
     /*goal meter  filled and then not filled*/
     .fs-goal-graph-fill{
