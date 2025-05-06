@@ -44,10 +44,10 @@
     }
     /*goal meter  filled and then not filled*/
     .fs-goal-graph-fill{
-        background: #fff !important;
+        background: #fee549 !important;
     }
     .fs-goal-graph{
-        background: #fee549 !important;
+        background: #fff !important;
     }
 
     /*countdown*/
