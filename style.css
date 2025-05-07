@@ -40,7 +40,7 @@
     }
     .fs-goal .fs-goal-graph-container .fs-goal-graph-text span
     {
-        color:#68c4d1 !important;
+        color:#fee549 !important;
     }
     /*goal meter  filled and then not filled*/
     .fs-goal-graph-fill{
@@ -73,7 +73,29 @@
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
         color:#fff !important;
     }
-    
+    /*section next to countdown*/
+   .fs-donate {
+    background:#68c4d1
+}
+
+/*body > div.fs-root > div > div.fs-campaign-info > div > div > div.col-md-6.fs-donate.fs-donatable.text-center.vertical-align.d-js-viewport-in > div.fs-left-border-triangle > svg > polygon{
+fill:#F8A147
+}*/
+div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > polygon{
+    fill:#68c4d1;
+}
+
+/*dollar sign*/
+.fs-donate .fs-donate-amounts {
+    color:#FFF;
+}
+/*button*/
+.fs-donate .fs-btn, .fs-donate .fs-btn:hover{
+   
+    border-radius: 25px !important;
+
+}
+
   /*donate section*/
   .donar-section{
     background: #fee549;
