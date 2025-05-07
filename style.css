@@ -99,7 +99,7 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 
   /*donate section*/
   .donar-section{
-    background: #fee549;
+    background: #fcc222;
     }
     .donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-item:hover .nav-link,.donar-section .nav-tabs .nav-item:hover .nav-link{
         border-bottom:3px solid #00517c !important;
