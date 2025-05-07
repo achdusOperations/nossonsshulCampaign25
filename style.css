@@ -1,3 +1,14 @@
+/*top*/
+.container-fluid.fs-header-top{
+    background:#2b2b34;
+}
+/*header*/
+/*donate button*/
+.fs-header-top .fs-top-tools .fs-btn{
+    background:#fcc222 !important;
+    border-radius: 25px !important;
+}
+
 /*hero image*/
 
 .fs-header:before {
@@ -43,7 +54,6 @@
     }
     .fs-goal{
     background:#00517c !important;
-    border-radius:25px !important;
     }
     .fs-goal .fs-goal-graph-container .fs-goal-graph-text>div, .col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong, .fs-goal .fs-goal-text .fs-goal-amount{
         color:#fff !important;
@@ -111,16 +121,33 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     background: #fcc222;
     }
     .donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-item:hover .nav-link,.donar-section .nav-tabs .nav-item:hover .nav-link{
-        border-bottom:3px solid #00517c !important;
+        border-bottom:3px solid #2b2b34 !important;
     }
     .donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-link{
-        color:#00517c !important;
+        color:#2b2b34 !important;
+    }
+
+    /*tag with amount*/
+    .donate-members .donates_user .donate-A{
+        background:#2b2b34 !important;
+    }
+    .donate-triangle{
+       border-right: 26px solid #2b2b34 !important;
     }
      /*"view all donors / be the first"*/
    .js-donors-list .fs-btn,.js-donors-list .fs-btn:hover{
     background:#00517c;
     border-radius: 25px !important;
     }
+    /*about campaign*/
+#Description h3, #about_modal h3{
+    color:#00517c !important;
+   
+}
+#Description h4, #about_modal h4{
+    color:#fcc222;
+   
+}
    
     /*footer*/
     .fs-footer {
