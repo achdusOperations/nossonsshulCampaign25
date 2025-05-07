@@ -30,10 +30,11 @@
 
     /*goal section*/
     .jumbotron.fs-header {
-        border-bottom: 4px solid #00517c !important;
+        border-bottom: none !important;
     }
     .fs-goal{
     background:#00517c !important;
+    border-radius:25px !important;
     }
     .fs-goal .fs-goal-graph-container .fs-goal-graph-text>div, .col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong, .fs-goal .fs-goal-text .fs-goal-amount{
         color:#fff !important;
