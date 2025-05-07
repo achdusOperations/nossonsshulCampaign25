@@ -80,7 +80,6 @@
     /*countdown*/
 .fs-countdown {
     background:#68c4d1 !important;
-    border-radius:35px !important;
     }
     .fs-countdown-number, .fs-countdown-sep{
       color:#fff !important;
@@ -177,6 +176,11 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     /*team leader*/
     div > div > div > div > div.left_userd > div > span{
         color:#fcc222
+    }
+
+    /*specific team page*/
+    .team-donate-btn.btn.team-tab.js-team-open-donate.common-donate,a.team-donate-btn.btn.donate-now.js-team-open-donate.common-donate{
+        border-radius:25px;
     }
 
  /*team page*/  
