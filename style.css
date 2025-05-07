@@ -5,6 +5,9 @@
 body > div > div > div.container-fluid.fs-header-top > div{
     margin-right:0px;
 }
+a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
+    background:#2b2b34 !important;
+}
 /*header*/
 /*donate button*/
 .fs-header-top .fs-top-tools .fs-btn{
