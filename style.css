@@ -30,6 +30,7 @@
   border-radius: 25px !important;
   color:#FFF;
   font-weight: bold !important;
+  min-width:10em !important; 
   }
   .donate-button .donate-button-text:hover{
     background: #68c4d1;
