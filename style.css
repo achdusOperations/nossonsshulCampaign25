@@ -122,3 +122,32 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         color:#FFF;
     }
 
+    /*team section*/
+
+    .progress-flex .S-label span,.donate-members .donates_user .left_userd .user-name, .donar-section .nav-tabs .nav-item.active .nav-link, .team-members .team-users .donor-team span{
+        color:#00517c;
+    }
+    .donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-item:hover .nav-link{
+        border-bottom: 3px solid #00517c;
+    }
+    /*team leader*/
+    div > div > div > div > div.left_userd > div > span{
+        color:#fcc222
+    }
+
+   
+    /*left button*/
+    a.view-btn.btn.js-team-detail, a.view-btn.btn.js-team-detail:hover {
+        background:#fcc222 !important;
+        border-radius: 25px !important;
+    }
+    /*right button*/
+    a.view-btn.btn.donate-btns.js-team-open-donate.common-donate, a.view-btn.btn.donate-btns.js-team-open-donate.common-donate:hover{
+        background: #00517c !important;
+        border-radius: 25px !important;
+    }
+    /*filler*/
+    .progress-flex .progress .progress-bar{
+        background:#f5de68 !important;
+    }
+
