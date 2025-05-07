@@ -132,7 +132,15 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     }
 
     /*team section*/
-
+    .donar-section .right-filters-data .form-control{
+        border-radius:25px !important;
+    }
+    .donar-section .right-filters-data .input-group{
+        border-radius:35px !important;
+    }
+    .right-filters-data .input-group .input-group-addon{
+        border-radius: 30px !important;
+    }
     .progress-flex .S-label span,.donate-members .donates_user .left_userd .user-name, .donar-section .nav-tabs .nav-item.active .nav-link, .team-members .team-users .donor-team span{
         color:#00517c;
     }
