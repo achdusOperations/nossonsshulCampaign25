@@ -2,7 +2,7 @@
 .container-fluid.fs-header-top{
     background:#2b2b34;
 }
-.container{
+body > div > div > div.container-fluid.fs-header-top > div{
     margin-right:0px;
 }
 /*header*/
