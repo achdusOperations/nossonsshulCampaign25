@@ -2,12 +2,20 @@
 
 .fs-header:before {
     background-image: 
-   url("https://nossonsshul.com/media/images/1319/KLYz13197502.png");
+   url("https://nossonsshul.com/media/images/1319/sJeJ13197687.png");
    background-size:100% 100%;
    }
    .fs-header .page-header h1 small, body > div > div > div.jumbotron.fs-header > div > div > h1 > span, .fs-header .page-header h2{
     opacity:0;
    }
+
+   @media screen and (max-width: 700px) {
+    .fs-header:before {
+     background-image: 
+    url("https://nossonsshul.com/media/images/1319/hyDw13197686.png");
+    background-size:100% 100%;
+    }
+    }
 
            /*remove logo*/
            .fs-header-top .fs-logo-container{
@@ -18,7 +26,7 @@
         }
    /*donate now and about campaign */
 .donate-button .donate-button-text {
-    background:#fee549;
+    background:#fcc222;
   border-radius: 25px !important;
   color:#FFF;
   font-weight: bold !important;
@@ -135,7 +143,7 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         color:#fcc222
     }
 
-   
+ /*team page*/  
     /*left button*/
     a.view-btn.btn.js-team-detail, a.view-btn.btn.js-team-detail:hover {
         background:#fcc222 !important;
@@ -148,6 +156,38 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     }
     /*filler*/
     .progress-flex .progress .progress-bar{
-        background:#f5de68 !important;
+        background:#fee549 !important;
     }
 
+    /*donate page*/
+    /*header*/
+    .fs-full-donate-form .fs-donate-header{
+        background:#00517c;
+        
+    }
+    .fs-full-donate-form .fs-donate-header .fs-text {
+        color:#FFF;
+    }
+        /*titles*/
+        .title, .recurring-length-label, .fs-full-donate-form .fs-donate-body .fs-donate-section h3, .content  {
+    color:#fcc222 !important;
+    }
+
+    /*button*/
+    button.btn.fs-btn.fs-btn-donate.fs-donate-body-horizontal-padding{
+        background:#fcc222;
+        border-radius:25px;
+    }
+    /*amount boxes*/
+    .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*{
+        background-color: #fcc222;
+      
+        border-radius:25px;
+    }
+    /*amount boxes when selected*/
+    .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.fs-other label.selected, .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.selected .fs-option-name>div {
+        background:#00517c;
+        color:#FFF
+    
+    }
+    
