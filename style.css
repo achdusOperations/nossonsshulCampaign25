@@ -35,7 +35,7 @@
     .fs-goal{
     background:#00517c !important;
     }
-    .col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong, .fs-goal .fs-goal-text .fs-goal-amount{
+    .fs-goal .fs-goal-graph-container .fs-goal-graph-text>div, .col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong, .fs-goal .fs-goal-text .fs-goal-amount{
         color:#fff !important;
     }
     .fs-goal .fs-goal-graph-container .fs-goal-graph-text span
