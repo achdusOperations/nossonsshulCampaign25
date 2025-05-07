@@ -124,8 +124,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
    
     /*footer*/
     .fs-footer {
-        background: #00517c;
-        border-top: 1px solid #00517c;
+        background:#2b2b34;
+        border-top: 1px solid #2b2b34;
     }
     .fs-footer .row>div:nth-of-type(1) h3, .fs-footer .row>div:nth-of-type(2) h3 , address {
         color:#FFF;
