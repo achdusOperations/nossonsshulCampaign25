@@ -237,3 +237,7 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     
     }
     
+    /*dedication*/
+    .donate-members .donates_user .description{
+        display: block !important;
+    }
